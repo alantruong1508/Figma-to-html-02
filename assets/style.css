@@ -408,3 +408,46 @@ a {
   margin-top: 38px;
   justify-content: center;
 }
+/* áp dụng cho phần install mobile */
+.install {
+  padding: 180px 0 85px 0;
+}
+.install__inner {
+  height: 427px;
+  border-radius: 4px;
+  background: #2e80ce;
+  display: flex;
+  justify-content: space-between;
+}
+.install__img {
+  position: relative;
+  top: -95px;
+  right: -70px;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+}
+.install__content {
+  display: flex;
+  flex-direction: column;
+  width: 586px;
+  margin-right: 70px;
+}
+.install__heading {
+  width: 489px;
+  color: #fff;
+  margin-top: 76px;
+}
+.install__desc {
+  width: 586px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67;
+  margin-top: 18px;
+}
+.install__row {
+  display: flex;
+  margin-top: 38px;
+  gap: 28px;
+}
