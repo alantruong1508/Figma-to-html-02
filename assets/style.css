@@ -50,6 +50,28 @@ a {
   line-height: 1.67;
   margin-top: 18px;
 }
+.control__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: #575f66;
+  border: 1px solid #575f66;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.control__btn:hover {
+  background: #2e80ce;
+  color: #fff;
+}
+.control {
+  display: flex;
+  justify-content: center;
+  column-gap: 18px;
+}
 /* áp dụng cho phần header */
 .header {
   background: var(--header-bg);
@@ -331,4 +353,58 @@ a {
 }
 .about-content__btn {
   margin-top: 38px;
+}
+/* áp dụng cho phần team */
+.team {
+  padding: 85px 0;
+}
+.team-header {
+  text-align: center;
+  margin: 0 auto;
+}
+.team__heading {
+  margin-bottom: 38px;
+}
+.team__cta {
+  margin-bottom: 70px;
+}
+.team__list {
+  column-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.team-item__img-bg {
+  border-radius: 6px;
+  background: #eaf6ff;
+  padding-top: 28px;
+  overflow: hidden;
+}
+.team-item__thumb {
+  max-width: 100%;
+  height: 290px;
+  object-fit: cover;
+  display: block;
+  transition: 0.5s;
+}
+.team-item__name {
+  margin-top: 12px;
+  color: #10375c;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+.team-item__desc {
+  color: #575f66;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.85;
+}
+.team-item:hover .team-item__thumb {
+  transform: scale(1.1);
+}
+.team__control {
+  margin-top: 38px;
+  justify-content: center;
 }
